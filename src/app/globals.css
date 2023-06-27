@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+#root {
+  font-family: 'Poppins';
+}
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -42,6 +47,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --font-family: 'Poppins';
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
